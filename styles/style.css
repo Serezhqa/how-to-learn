@@ -68,6 +68,7 @@
 
 .header__link:hover {
   opacity: .5;
+  transition: .15s linear;
 }
 
 .header__main-illustration {
@@ -242,6 +243,7 @@
 
 .feinman__link:hover {
   opacity: .5;
+  transition: .15s linear;
 }
 
 
@@ -356,6 +358,7 @@
 
 .footer__column-link:hover {
   opacity: .5;
+  transition: .15s linear;
 }
 
 .footer__social-icon {
