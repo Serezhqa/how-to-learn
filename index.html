@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -13,7 +13,10 @@
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать &rarr;</a></p>
+      <p class="header__subtitle">
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <a href="#" class="header__link">Узнать &rarr;</a>
+      </p>
       <img class="header__main-illustration" src="blocks/header/__main-illustration/two_again.png" alt="ну вот, снова двойка">
       <div class="header__square-pic"></div>
     </header>
@@ -211,20 +214,28 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a class="resources__link" href="https://arzamas.academy" target="_blank">
-            <img class="resources__logo" src="blocks/resources/__logo/arzamas.svg" alt="Арзамас — просветительский проект, посвящённый истории культуры">
-          </a>
-          <a class="resources__link" href="https://nplus1.ru" target="_blank">
-            <img class="resources__logo" src="blocks/resources/__logo/n1.svg" alt="N+1: научные статьи, новости, открытия">
-          </a>
-          <a class="resources__link" href="https://strelka.com/ru/home" target="_blank">
-            <img class="resources__logo" src="blocks/resources/__logo/strelka.svg" alt="Институт «Стрелка» — международное образовательное учреждение в области архитектуры, дизайна и медиа">
-          </a>
-          <a class="resources__link" href="https://polka.academy" target="_blank">
-            <img class="resources__logo" src="blocks/resources/__logo/polka.svg" alt="Полка - 108 самых важных русских книг в вопросах и ответах">
-          </a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__item">
+            <a class="resources__link" href="https://arzamas.academy" target="_blank">
+              <img class="resources__logo" src="blocks/resources/__logo/arzamas.svg" alt="Арзамас — просветительский проект, посвящённый истории культуры">
+            </a>
+          </li>
+          <li class="resources__item">
+            <a class="resources__link" href="https://nplus1.ru" target="_blank">
+              <img class="resources__logo" src="blocks/resources/__logo/n1.svg" alt="N+1: научные статьи, новости, открытия">
+            </a>
+          </li>
+          <li class="resources__item">
+            <a class="resources__link" href="https://strelka.com/ru/home" target="_blank">
+              <img class="resources__logo" src="blocks/resources/__logo/strelka.svg" alt="Институт «Стрелка» — международное образовательное учреждение в области архитектуры, дизайна и медиа">
+            </a>
+          </li>
+          <li class="resources__item">
+            <a class="resources__link" href="https://polka.academy" target="_blank">
+              <img class="resources__logo" src="blocks/resources/__logo/polka.svg" alt="Полка - 108 самых важных русских книг в вопросах и ответах">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -233,44 +244,40 @@
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; 2020. Сергей Подрябинников</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <nav class="footer__navigation">
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="#">Главная</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Концепция</a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="#">Наставники</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">Главная</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Концепция</a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="#">Наставники</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
-          <nav class="footer__navigation">
-            <ul class="footer__column-links">
-              <li>
-                <a class="footer__column-link" href="https://www.facebook.com/yandex.praktikum" target="_blank">
-                  <img class="footer__social-icon" src="blocks/footer/__social-icon/facebook_white.svg" alt="логотип фейсбук">Facebook
-                </a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="https://vk.com/yandex.praktikum" target="_blank">
-                  <img class="footer__social-icon" src="blocks/footer/__social-icon/vk_white.svg" alt="логотип вконтакте">ВКонтакте
-                </a>
-              </li>
-              <li>
-                <a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum" target="_blank">
-                  <img class="footer__social-icon" src="blocks/footer/__social-icon/instagram_white.svg" alt="логотип инстаграм">Instagram
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="https://www.facebook.com/yandex.praktikum" target="_blank">
+                <img class="footer__social-icon" src="blocks/footer/__social-icon/facebook_white.svg" alt="логотип фейсбук">Facebook
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="https://vk.com/yandex.praktikum" target="_blank">
+                <img class="footer__social-icon" src="blocks/footer/__social-icon/vk_white.svg" alt="логотип вконтакте">ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum" target="_blank">
+                <img class="footer__social-icon" src="blocks/footer/__social-icon/instagram_white.svg" alt="логотип инстаграм">Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
